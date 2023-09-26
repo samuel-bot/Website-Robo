@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="shortcut icon" href="./img/1492719128-robot_83633.ico" type="image/x-icon">
+    <title>Robô da RoboCup</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300;1,400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Menu de Navegação -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#"><i class="bi bi-robot"></i>
+                RoboCup</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#apresentacao">Apresentação</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#imagens">Imagens</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#armas">Sistema de Armas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#hardware">Hardware</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#videos">Vídeos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#grupo">Grupo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Seção de Apresentação -->
+    <section id="apresentacao" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2>Conheça nosso Robô</h2>
+                    <p>Nosso robô foi construído para competir na RoboCup. Ele é o resultado de meses de trabalho e
+                        dedicação por parte de nossa equipe.</p>
+                    <p>Queremos apresentar a você todas as características do nosso robô. Continue rolando para
+                        descobrir mais!</p>
+                </div>
+                <div class="col-lg-6">
+                    <!-- Imagem do Robô -->
+                    <img src="./img/robo (3).jpeg" alt="Robô da RoboCup" class="img-fluid w-50 mx-auto">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Seção de Imagens do Robô (Carousel) -->
+    <section id="imagens" class="py-5">
+        <div class="container">
+            <h2 class="text-dark">Imagens do Robô</h2>
+            <div id="carouselImagens" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./img/robo (1).jpeg" class="d-block w-50 mx-auto" alt="Imagem aerea do robo">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/robo (2).jpeg" class="d-block w-50 mx-auto"
+                            alt="Imagem lateral direita do robo">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/robo (3).jpeg" class="d-block w-50 mx-auto" alt="Imagem frontal do robo">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/robo (4).jpeg" class="d-block w-50 mx-auto" alt="Imagem traseira do robo">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/robo.jpg" class="d-block w-50 mx-auto" alt="Imagem do robo funcionando">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselImagens" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselImagens" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Próximo</span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- Seção do Sistema de Armas -->
+    <section id="armas" class="py-5">
+        <div class="container">
+            <h2>Sistema de Armas</h2>
+            <p>O nosso rôbo tem um duas armas uma na direita e outra na esquerda do rôbo quando ativadas elas gira 180°
+                graus na direção frontal do rôbo para estourar o balão adversário</p>
+            <p>Para saber mais sobre como nosso sistema de armas funciona, assista o vídeo</p>
+        </div>
+    </section>
+    <!-- Seção de Hardware Necessário -->
+    <section id="hardware" class="py-5">
+        <div class="container">
+            <h2>Hardware Necessário</h2>
+            <p>A montagem do nosso robô requer uma série de componentes de hardware, como o Arduíno Mega, shield de
+                motor que foram essenciais para melhor performance do rôbo </p>
+            <p>Se você está interessado em saber mais sobre o hardware necessário, continue rolando.</p>
+        </div>
+    </section>
+    <!-- Seção de Vídeos -->
+    <section id="videos" class="py-5">
+        <div class="container">
+            <h2>Vídeos</h2>
+            <div class="row">
+                <div class="col-lg-6">
+                    <h3>Construção do Robô</h3>
+                    <!-- Vídeo 1 - Construção do Robô -->
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe width="479" height="851" src="https://www.youtube.com/embed/y5l4jgNR8po"
+                            title="Sprint 3 Grupo Certamente não é um robo" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h3>Robô em Movimento</h3>
+                    <!-- Vídeo 2 - Robô em Movimento -->
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe width="479" height="851" src="https://www.youtube.com/embed/2hL72Bqg_XE" title=""
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Seção de Apresentação do Grupo -->
+    <!-- Seção de Apresentação do Grupo -->
+    <section id="grupo" class="py-5">
+        <div class="container">
+            <h2>Conheça o Nosso Grupo</h2>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="./img/samuel.jpg" class="card-img-top" alt="Membro Samuel">
+                        <div class="card-body">
+                            <h5 class="card-title">Samuel</h5>
+                            <p class="card-text">Responsavel pela construção do robo.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="./img/vitor.jpg" class="card-img-top" alt="Membro Vitor">
+                        <div class="card-body">
+                            <h5 class="card-title">Vitor</h5>
+                            <p class="card-text">Responsavel pelas armas.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="./img/juan.jpg" class="card-img-top" alt="Membro Juan">
+                        <div class="card-body">
+                            <h5 class="card-title">Juan</h5>
+                            <p class="card-text">Responsavel pelo modelo do site.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="./img/enzo.jpg" class="card-img-top" alt="Membro Enzo">
+                        <div class="card-body">
+                            <h5 class="card-title">Enzo</h5>
+                            <p class="card-text">Responsavel pelo modelo do robo.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Seção de Apresentação da RoboCup e do Next -->
+    <section id="robocup-next" class="py-5">
+        <div class="container">
+            <div class="row">
+                <h2>RoboCup e Next</h2>
+                <div class="col-lg-6">
+                    <p>A RoboCup é a competição de robótica onde o objetivo e saber quais são os 32 melhores rôbos. Next
+                        e onde os melhores rôbos se enfretam para descobrir qual e o melhor robo.</p>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe width="560" height="520" src="https://www.youtube.com/embed/UKcEUDlnX9Q"
+                            title="Robocup 2016 - Competição FIAP Next Festival" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+
+                </div>
+                <div class="col-lg-6">
+                    <h2></h2>
+                    <p>Next e um festival temos das melhores tecnologias atuais além disso temos uma competição onde os
+                        melhores rôbos se enfretam para descobrir qual e o melhor robo entre 32</p>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe width="560" height="520" src="https://www.youtube.com/embed/yqUDrLX8778"
+                            title="NEXT FIAP FESTIVAL 2022" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Seção de Formulário de Contato -->
+    <section id="contato" class="py-5">
+        <div class="container">
+            <h2>Contate-nos</h2>
+            <p>Tem alguma pergunta ou comentário? . Preencha o formulário abaixo e entraremos em contato em breve.</p>
+            <form>
+                <div class="mb-3">
+                    <label for="nome" class="form-label">Nome</label>
+                    <input type="text" class="form-control" id="nome" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="mensagem" class="form-label">Mensagem</label>
+                    <textarea class="form-control" id="mensagem" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+    </section>
+    <!-- Rodapé -->
+    <footer class="bg-dark text-light text-center py-3">
+        <p>&copy; 2023 RoboCup. Todos os direitos reservados.</p>
+    </footer>
+    <!-- Scripts do Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

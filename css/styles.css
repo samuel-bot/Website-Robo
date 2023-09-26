@@ -1,0 +1,168 @@
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #dee0e0;
+}
+
+.navbar {
+    background-color: #343a40;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #fff;
+    font-weight: bold;
+}
+
+#apresentacao {
+    background-color: #fff;
+    padding: 60px 0;
+}
+
+#apresentacao h2 {
+    font-size: 32px;
+    color: #333;
+}
+
+#apresentacao p {
+    font-size: 18px;
+    color: #666;
+}
+
+#imagens {
+    background-color: #dee0e0;
+    padding: 60px 0;
+}
+
+#imagens h2 {
+    font-size: 32px;
+    color: #333;
+}
+
+.carousel-inner {
+    text-align: center;
+}
+
+.carousel-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+#armas {
+    background-color: #fff;
+    padding: 60px 0;
+}
+
+#armas h2 {
+    font-size: 32px;
+    color: #333;
+}
+
+#armas p {
+    font-size: 18px;
+    color: #666;
+}
+
+#hardware {
+    background-color: #f5f5f5;
+    padding: 60px 0;
+}
+
+#hardware h2 {
+    font-size: 32px;
+    color: #333;
+}
+
+#hardware p {
+    font-size: 18px;
+    color: #666;
+}
+
+#videos {
+    background-color: #fff;
+    padding: 60px 0;
+}
+
+#videos h2 {
+    font-size: 32px;
+    color: #333;
+}
+
+#grupo {
+    background-color: #f5f5f5;
+    padding: 60px 0;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 16px;
+    color: #666;
+}
+
+
+#grupo h2 {
+    font-size: 32px;
+    color: #333;
+}
+
+#grupo p {
+    font-size: 18px;
+    color: #666;
+}
+
+#robocup-next {
+    background-color: #fff;
+    padding: 60px 0;
+}
+
+#robocup-next h2 {
+    font-size: 32px;
+    color: #333;
+}
+
+#robocup-next p {
+    font-size: 18px;
+    color: #666;
+}
+
+#contato {
+    background-color: #dee0e0;
+    padding: 60px 0;
+}
+
+#contato h2 {
+    font-size: 32px;
+    color: #333;
+}
+
+#contato p {
+    font-size: 18px;
+    color: #000 ;
+}
+
+
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+    font-size: 16px;
+}
